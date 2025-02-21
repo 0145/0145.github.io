@@ -31,9 +31,6 @@
 
     <!-- 内嵌样式，用于美化页面 -->
     <style>
-      /* =============================
-         全局基础设置
-      ============================= */
       body {
         font-family: 'Roboto', sans-serif;
         background: #fdfdfd;
@@ -43,7 +40,6 @@
         font-size: 18px;
         line-height: 1.8;
       }
-      /* 使用 !important 覆盖可能的外部样式 */
       a {
         font-family: inherit !important;
         color: #4da6ff !important; /* 浅蓝色 */
@@ -54,15 +50,11 @@
         color: #1e90ff !important; /* 悬停时稍深 */
         text-decoration: underline !important;
       }
-      /* 对强调文字使用斜体 */
       em {
         font-style: italic;
         color: #555;
       }
       
-      /* =============================
-         标题字体设置
-      ============================= */
       h1, h2, h3, h4, h5, h6 {
         font-family: 'Merriweather', serif;
         margin-top: 1.5rem;
@@ -225,7 +217,6 @@
         text-decoration: underline;
       }
       
-      /* 解决锚点定位问题：当页面滚动到目标（如 About Me）时，将目标提前 90px */
       [id]:target::before {
         content: "";
         display: block;
@@ -325,13 +316,13 @@
           <p><strong>(1) Reasoning and Synthetic Dataset</strong></p>
           <ul>
             <li>
-              <strong><a href="https://arxiv.org/abs/2502.12143v1">Small Model Learnability Gap</a></strong> (comming soon): We revealed that small models do not consistently benefit from long CoT or distillation from large teachers. Instead, they perform better on shorter, simpler reasoning chains that better align with their intrinsic learning capacity. We propose <em>Mix Distillation</em>, a simple yet effective strategy that combines both long and short CoT examples or reasoning from both large and small teachers.
+              <strong><a href="https://arxiv.org/abs/2502.12143v1">Small Model Learnability Gap</a></strong>: We revealed that small models do not consistently benefit from long CoT or distillation from large teachers. Instead, they perform better on shorter, simpler reasoning chains that better align with their intrinsic learning capacity. We propose <em>Mix Distillation</em>, a simple yet effective strategy that combines both long and short CoT examples or reasoning from both large and small teachers.
             </li>
             <li>
               <strong><a href="https://huggingface.co/collections/Magpie-Align/magpielm-66e2221f31fa3bf05b10786a">MagpieLM</a></strong>: We maintained the official Magpie Hugging Face repository and released open-sourced synthetic data generated from open-source LLMs. Our aligned MagpieLM models are still <strong>SOTA</strong> small language models for chat.
             </li>
             <li>
-              <strong><a href="https://arxiv.org/abs/2502.12025">SafeChain</a></strong> (comming soon): We investigated how long CoT impacts safety and revealed that long CoT does not necessarily enhance safety. We introduced SafeChain, a dataset designed to improve safety alignment while preserving reasoning capabilities.
+              <strong><a href="https://arxiv.org/abs/2502.12025">SafeChain</a></strong>: We investigated how long CoT impacts safety and revealed that long CoT does not necessarily enhance safety. We introduced SafeChain, a dataset designed to improve safety alignment while preserving reasoning capabilities.
             </li>
           </ul>
 

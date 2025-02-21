@@ -2,11 +2,7 @@ User-agent: *
 
 Allow: /
 
-Disallow: /images/
 Disallow: /history/
-Disallow: /about/
-Disallow: /js/
-Disallow: /css/
 Disallow: /fancybox/
 Disallow: /friends/
 Disallow: /contact/
